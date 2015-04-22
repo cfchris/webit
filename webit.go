@@ -22,7 +22,7 @@ func main() {
 		handler = corsHandler(handler)
 	}
 
-	fmt.Printf("Starting HTTPster on port %s from %s\n", port, path)
+	fmt.Printf("Starting web server on port %s from %s\n", port, path)
 	http.ListenAndServe(":"+port, handler)
 }
 
