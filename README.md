@@ -1,5 +1,5 @@
 # webit
-Simple command to load a static file server pointing at a directory. 
+Simple command to start a web server pointing at a directory of static files.
 
 This is heavily inspired by @SimbCo's [httpster project](https://github.com/SimbCo/httpster).
 
